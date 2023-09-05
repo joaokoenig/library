@@ -1,4 +1,4 @@
-#addNewButton{
+#addNewBook{
     background-color: blue;
     color: white;
     border-radius: 10px;
@@ -7,5 +7,33 @@
     border: none;
     cursor: pointer;
     display: block;
+    font-size: 20px;
 }
 
+form{
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px ;
+}
+
+label{
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+
+}
+
+input{
+    border-radius: 5px;
+}
+
+#addBookSubmit{
+    margin: 10px auto;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}

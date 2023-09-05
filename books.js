@@ -18,5 +18,6 @@ function displayLibrary (){
 let addNewBook = document.querySelector("#addNewBook");
 
 addNewBook.addEventListener("click", function(){
-    
+    let newBookForm = document.querySelector("#newBookForm");
+    newBookForm.style.display = "block";  
 })
